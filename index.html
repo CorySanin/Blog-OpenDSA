@@ -11,17 +11,8 @@ layout: default
     {% endif %}
     <article class="post">
 
-      <h2><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h2>
-
-      <div class="date">
-        {{ post.date | date: "%B %e, %Y" }}
-      </div>
-
-      <div class="entry">
-        {{ post.excerpt }}
-      </div>
-
-      <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read More</a>
+      <h2><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }} - Week of {{ post.date | date: "%B %e, %Y" }}</a></h2>
+      
     </article>
   {% endfor %}
 </div>
