@@ -4,9 +4,14 @@ layout: default
 
 <div class="posts">
   {% for post in site.posts %}
+    {% assign currentdate = post.date | date: "%B %Y" %}
+    {% if currentdate != date %}
+      <h1>{{ currentdate }}</h1>
+      {% assign date = currentdate %}
+    {% endif %}
     <article class="post">
 
-      <h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
+      <h2><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h2>
 
       <div class="date">
         {{ post.date | date: "%B %e, %Y" }}
