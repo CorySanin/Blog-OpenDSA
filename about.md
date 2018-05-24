@@ -14,4 +14,4 @@ Feel free to check out some of my [other projects](https://www.sanin.click/)!
 
 ### Contact me
 
-[corysanin@outlook.com](mailto:corysanin@outlook.com) | [@CorySanin](https://twitter.com/CorySanin)
+[corysanin@outlook.com](mailto:corysanin@outlook.com) \| [@CorySanin](https://twitter.com/CorySanin)
