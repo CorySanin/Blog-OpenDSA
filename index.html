@@ -3,7 +3,7 @@ layout: default
 ---
 
 <div class="posts">
-  {% for post in site.posts %}
+  {% for post in site.posts reversed %}
     {% assign currentdate = post.date | date: "%B %Y" %}
     {% if currentdate != date %}
       <h1>{{ currentdate }}</h1>
@@ -12,7 +12,7 @@ layout: default
     <article class="post">
 
       <h2><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }} - Week of {{ post.date | date: "%B %e, %Y" }}</a></h2>
-      
+
     </article>
   {% endfor %}
 </div>
