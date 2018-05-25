@@ -115,7 +115,7 @@ img {
   max-width: none;
 }
 
-.date {
+.date, .entry > h2 + p > em {
   font-style: italic;
   color: $gray;
 }
