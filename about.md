@@ -4,9 +4,9 @@ title: About
 permalink: /about/
 ---
 
-This [blog](https://github.com/CorySanin/Blog-OpenDSA) is for documenting my progress contributing to the OpenDSA project. My main objective is adding interactive content on parameter passing to the Programming Languages book. This includes adding a visualization of each parameter-passing method and adding a proficiency exercise for each parameter passing method.
+This [blog](https://github.com/CorySanin/Blog-OpenDSA) documented my progress contributing to the OpenDSA project. My main objective was adding interactive content on parameter passing to the Programming Languages book. This includes adding a visualization of each parameter-passing method and adding a proficiency exercise for each parameter passing method.
 
-This project is being supervised by [Thomas Naps](https://github.com/tomnaps).
+This project was supervised by [Thomas Naps](https://github.com/tomnaps).
 
 ### Other Projects
 
